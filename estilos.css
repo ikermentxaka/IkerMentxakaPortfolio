@@ -18,12 +18,12 @@ body{
 #panel{
     color: rgb(255, 255, 255);
     border: 2px solid white;
-    background-color: rgba(0, 0, 0, 0.8);
-    backdrop-filter: blur(20px);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
     border-radius: 1em;
     
     margin-top: 4em;      /*Minimo, Ideal, Maximo*/
-    margin-inline:clamp(0.25rem, 20vw, 40em);
+    margin-inline:clamp(1vw, 20vw, 40em);
     padding-inline:clamp(0.25rem, 5vw, 40em);
     padding-bottom: 4em;
     margin-bottom: 4em;
@@ -44,8 +44,16 @@ a{
     color: #ffffff;
 }
 @media (max-width: 850px) {
+    
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1em;
+    }
     #panel{
-        color: aqua;
+        margin-inline: 10vw;
+        
     }
 
 }
