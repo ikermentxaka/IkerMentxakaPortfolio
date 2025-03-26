@@ -43,3 +43,9 @@ p{
 a{
     color: #ffffff;
 }
+@media (max-width: 850px) {
+    #panel{
+        color: aqua;
+    }
+
+}
