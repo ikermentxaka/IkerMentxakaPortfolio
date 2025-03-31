@@ -8,7 +8,7 @@
     margin: 0;
 }	
 body{
-    color: black;
+    color: rgb(255, 255, 255);
     background: url('img/fondo.jpg');
     background-size: cover;
     background-color: black;
@@ -17,7 +17,11 @@ body{
 }
 #panel{
     color: rgb(255, 255, 255);
+<<<<<<< Updated upstream
     border: 2px solid white;
+=======
+    border: 0.2px solid rgb(155, 155, 155);
+>>>>>>> Stashed changes
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 1em;
@@ -30,11 +34,16 @@ body{
 }
 h1{
     font-size: 6em;
-    padding-top: 0.75em;
+    padding-top: 0.5em;
     margin-bottom: 0.25em;
 }
+h2{
+    color: #ffffff;
+ 
+}
 p{
-    font-size: 2em;
+    font-size: 1.5em;
+    text-shadow: 0 0 0.5em black;
 }
 #linkportfolio{
     text-align: center;
@@ -42,8 +51,18 @@ p{
 }
 a{
     color: #ffffff;
+<<<<<<< Updated upstream
 }
 @media (max-width: 1081px) {
+=======
+    text-decoration: none;
+}
+a:hover{
+    transform: font-size(1.5);
+    text-decoration: underline;
+}
+@media (max-width: 850px) {
+>>>>>>> Stashed changes
     
     h1{
         font-size: 3em;
@@ -55,5 +74,154 @@ a{
         margin-inline: 10vw;
         
     }
+<<<<<<< Updated upstream
 
 }
+=======
+    #atras{
+        display: none;
+    }
+}
+/* ..........EL CSS DEL PORTFOLIO ..........*/
+#top2{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+#bot3{
+    display: flex;
+ 
+    justify-content: center;
+    gap: 1em;
+}
+
+/* Estilos generales de los apartados */
+.item {
+    position: relative;
+    border: 0.2px solid #ffffff;
+    border-radius: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    aspect-ratio: 1/1;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    overflow: hidden;
+}
+
+/* Pseudo-elemento para la imagen de fondo con desenfoque */
+.item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;   
+    background-size: cover;
+    background-position: center;
+   
+    z-index: -1; /* Envía el fondo detrás del texto */
+}
+
+/* Especificar imágenes para cada apartado */
+.branding::before {
+    background-image: url('img/branding.jpg');
+    filter: brightness(25%) blur(4px);
+
+}
+.diseno3d::before {
+    background-image: url('img/diseno3d.png');
+    filter: brightness(25%) blur(4px);
+}
+.textil::before {
+    background-image: url('img/textil.jpg');
+    filter: brightness(25%) blur(4px);
+    
+}
+.tipografia::before {
+    background-image: url('img/tipografia.jpg');
+    filter: brightness(25%) blur(4px);
+}
+.video::before {
+    background-image: url('img/video.jpg');
+    filter: brightness(25%) blur(4px);
+}
+.item:hover::before {
+    filter: blur(0px) brightness(85%);
+}
+#ibr , #i3d {
+    width: 24em;
+    height: 24em;
+    
+}
+#itex , #itip , #iv{
+    height: 15.66em;
+    width: 15.66em;
+}
+#links{
+    text-decoration: none;
+}
+#nombredelapartado{
+    justify-self: center;
+}
+#imgscurro{
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}.imgcurro{
+    content: "";
+    width: 13em;   
+    aspect-ratio: 1/1;
+    position: relative;  
+    background-size: cover;
+    background-position: center; 
+    border-radius: 1em;
+}
+#priizq{  
+    background-image: url('img/sanblazz1.png');   
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#pridcha{
+    background-image: url('img/sanblazz2.png');  
+}
+#segunizq{
+    background-image: url('img/fms-04.jpg');
+}
+#segundcha{
+    background-image: url('img/fms-05.jpg');
+}
+#terizq{
+    background-image: url('img/qs1-07.jpg');
+}
+#terdcha{
+    background-image: url('img/qs2.jpg');
+}
+#atras{
+    position: absolute;
+    padding-left: 5em;
+    padding-top: 3em;
+    z-index: 3;
+    width: 6em;
+    filter: brightness(80%);
+}
+#atras:hover{
+    transform: translateX(-1em);
+    transition: ALL .3s;
+    filter: brightness(150%);
+}
+#benyart{
+    background-image: url('img/tipografia.jpg'); 
+}
+#frontenis{
+    background-image: url('img/frontenis.jpg');
+}
+#niño{
+    background-image: url('img/niño.jpg');
+}
+>>>>>>> Stashed changes

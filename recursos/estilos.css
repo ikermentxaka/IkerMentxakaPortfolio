@@ -1,0 +1,169 @@
+@font-face {
+    font-family: 'Product Sans';
+    src: url('fonts/Product Sans Regular.ttf') format('ttf');
+	src: url('fonts/Product Sans Bold.ttf') format('ttf');
+  }
+  *{
+	font-family: "Product Sans Regular";
+    margin: 0;
+}	
+body{
+    color: black;
+    background: url('img/fondo.jpg');
+    background-size: cover;
+    background-color: black;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+}
+#panel{
+    color: rgb(255, 255, 255);
+    border: 0.2px solid rgb(155, 155, 155);
+    background-color: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5px);
+    border-radius: 1em;
+    
+    margin-top: 4em;      /*Minimo, Ideal, Maximo*/
+    margin-inline:clamp(1vw, 20vw, 40em);
+    padding-inline:clamp(0.25rem, 5vw, 40em);
+    padding-bottom: 4em;
+    margin-bottom: 4em;
+}
+h1{
+    font-size: 6em;
+    padding-top: 0.75em;
+    margin-bottom: 0.25em;
+}
+p{
+    font-size: 2em;
+}
+#linkportfolio{
+    text-align: center;
+    color: #ffffff;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:hover{
+    transform: font-size(1.5);
+    text-decoration: underline;
+}
+@media (max-width: 850px) {
+    
+    h1{
+        font-size: 3em;
+    }
+    p{
+        font-size: 1em;
+    }
+    #panel{
+        margin-inline: 10vw;
+        
+    }
+
+}
+/* ..........EL CSS DEL PORTFOLIO ..........*/
+#top2{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin-bottom: 1em;
+}
+#bot3{
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+}
+.prttop2{
+    position: relative;
+    border-radius: 2em;
+    border: 2px solid white;
+    width:24em;
+    height: 24em;
+}
+.prtbot3{
+    position: relative;
+    border-radius: 2em;
+    border: 2px solid white;
+    width:15.66em;
+    height: 15.66em;
+}
+.titprt1{
+    position: absolute;
+    right: 1em;
+    bottom: 1em;
+    text-shadow: 0 0 0.1em black;
+
+}
+.titprt2{
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    text-shadow: 0 0 0.1em black;
+}
+.titprt3{
+    position: absolute;
+    right: 1em;
+    text-align: right;
+    top: 1em;
+    text-shadow: 0 0 0.1em black;
+}
+.titprt4 { 
+    position: absolute;
+    text-align: justify;
+    top: 1em;
+    left: 50%;
+    text-shadow: 0 0 0.1em black;
+    transform: translateX(-50%);}
+.titprt5{
+    position: absolute;
+    text-align: right;
+    text-shadow: 0 0 0.1em black;
+    left: 1em;
+    top: 1em;}
+
+#branding{
+    background-image: url('img/branding.jpg');    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+#diseno3d{
+    background-image: url('img/diseno3d.png');    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+#textil{
+    background-image: url('img/textil.jpg');    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+#tipografia{
+    background-image: url('img/tipografia.jpg');    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+#video{
+    background-image: url('img/video.jpg');    
+    background-size: cover;
+    background-position: center;
+    filter: brightness(50%);
+}
+#branding:hover{
+    filter: brightness(100%);
+}
+#diseno3d:hover{
+    filter: brightness(100%);
+}
+#textil:hover{
+    filter: brightness(100%);
+}
+#tipografia:hover{
+    filter: brightness(100%);
+}
+#video:hover{
+    filter: brightness(100%);
+}
