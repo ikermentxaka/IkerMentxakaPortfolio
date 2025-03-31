@@ -18,7 +18,11 @@ body{
 #panel{
     color: rgb(255, 255, 255);
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     border: 2px solid white;
+=======
+    border: 0.2px solid rgb(155, 155, 155);
+>>>>>>> Stashed changes
 =======
     border: 0.2px solid rgb(155, 155, 155);
 >>>>>>> Stashed changes
@@ -52,9 +56,12 @@ p{
 a{
     color: #ffffff;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 }
 @media (max-width: 1081px) {
 =======
+=======
+>>>>>>> Stashed changes
     text-decoration: none;
 }
 a:hover{
@@ -62,6 +69,9 @@ a:hover{
     text-decoration: underline;
 }
 @media (max-width: 850px) {
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     
     h1{
@@ -75,9 +85,12 @@ a:hover{
         
     }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 }
 =======
+=======
+>>>>>>> Stashed changes
     #atras{
         display: none;
     }
@@ -223,5 +236,9 @@ a:hover{
 }
 #niño{
     background-image: url('img/niño.jpg');
+<<<<<<< Updated upstream
+}
+>>>>>>> Stashed changes
+=======
 }
 >>>>>>> Stashed changes
