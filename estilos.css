@@ -69,6 +69,9 @@ a:hover{
     #atras{
         display: none;
     }
+    .nombretarjetas{
+        font-size: 0.75em;
+    }
 }
 /* ..........EL CSS DEL PORTFOLIO ..........*/
 #top2{
@@ -83,6 +86,7 @@ a:hover{
     justify-content: center;
     gap: 1em;
 }
+
 
 /* Estilos generales de los apartados */
 .item {
