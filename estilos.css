@@ -17,15 +17,7 @@ body{
 }
 #panel{
     color: rgb(255, 255, 255);
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-    border: 2px solid white;
-=======
     border: 0.2px solid rgb(155, 155, 155);
->>>>>>> Stashed changes
-=======
-    border: 0.2px solid rgb(155, 155, 155);
->>>>>>> Stashed changes
     background-color: rgba(0, 0, 0, 0.3);
     backdrop-filter: blur(5px);
     border-radius: 1em;
@@ -43,7 +35,8 @@ h1{
 }
 h2{
     color: #ffffff;
- 
+    font-size: 2.5em;
+    margin-bottom: 1em;
 }
 p{
     font-size: 1.5em;
@@ -55,13 +48,6 @@ p{
 }
 a{
     color: #ffffff;
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-}
-@media (max-width: 1081px) {
-=======
-=======
->>>>>>> Stashed changes
     text-decoration: none;
 }
 a:hover{
@@ -69,10 +55,6 @@ a:hover{
     text-decoration: underline;
 }
 @media (max-width: 850px) {
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
     
     h1{
         font-size: 3em;
@@ -84,13 +66,6 @@ a:hover{
         margin-inline: 10vw;
         
     }
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-
-}
-=======
-=======
->>>>>>> Stashed changes
     #atras{
         display: none;
     }
@@ -188,7 +163,7 @@ a:hover{
     margin-bottom: 1em;
 }.imgcurro{
     content: "";
-    width: 13em;   
+    width: 16em;   
     aspect-ratio: 1/1;
     position: relative;  
     background-size: cover;
@@ -236,9 +211,25 @@ a:hover{
 }
 #niño{
     background-image: url('img/niño.jpg');
-<<<<<<< Updated upstream
 }
->>>>>>> Stashed changes
-=======
+#larria1{
+    background-image: url('img/larria1.jpg');
 }
->>>>>>> Stashed changes
+#larria2{
+    background-image: url('img/larria2.jpg');
+}
+#silla{
+    background-image: url('img/diseno3d.png');
+}
+#silla2{
+    background-image: url('img/silla2.jpg');
+}
+#posca1{
+    background-image: url('img/posca1.png'); 
+}
+#posca2{
+    background-image: url('img/posca2.png'); 
+}
+#habbo{
+    background-image: url('img/habbo.jpg'); 
+}
