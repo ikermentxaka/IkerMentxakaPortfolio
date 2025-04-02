@@ -9,8 +9,8 @@
 }	
 body{
     color: rgb(255, 255, 255);
-    background: url('img/fondo.jpg');
-    background-size: cover;
+    background: url('img/fondo3.jpg');
+    background-size: contain;
     background-color: black;
     padding: 0 0 0 0;
     margin: 0 0 0 0;
@@ -64,7 +64,7 @@ a:hover{
     }
     #panel{
         margin-inline: 10vw;
-        
+        margin-top: 10em;
     }
     #atras{
         display: none;
@@ -72,6 +72,17 @@ a:hover{
     .nombretarjetas{
         font-size: 0.75em;
     }
+    #contacto {
+        transform: rotate(270deg) translateX(10%) translateY(90%);
+        font-size: 1.5em;
+        transform-origin: right center;
+        position: fixed;
+        top: 50%;
+        right: 0em;
+        filter: brightness(80%);
+        white-space: nowrap;
+    }
+
 }
 /* ..........EL CSS DEL PORTFOLIO ..........*/
 #top2{
@@ -195,15 +206,27 @@ a:hover{
     background-image: url('img/qs2.jpg');
 }
 #atras{
-    position: absolute;
-    padding-left: 5em;
-    padding-top: 3em;
+    position: sticky;
+    left: 5em;
+    top: 3em;
     z-index: 3;
     width: 6em;
     filter: brightness(80%);
 }
 #atras:hover{
     transform: translateX(-1em);
+    transition: ALL .3s;
+    filter: brightness(150%);
+}
+#contacto{
+    position: fixed;
+    right: 3em;
+    top: 3em;
+    z-index: 3;
+    filter: brightness(80%);
+}
+#contacto:hover{
+    transform: rotate(5deg);
     transition: ALL .3s;
     filter: brightness(150%);
 }
@@ -236,4 +259,22 @@ a:hover{
 }
 #habbo{
     background-image: url('img/habbo.jpg'); 
+}
+#xuxe1{
+    background-image: url('img/xuxe1.jpg');
+}
+#xuxe2{
+    background-image: url('img/xuxe2.jpg');
+}
+#bbz1{
+    background-image: url('img/bbz1.jpg');
+}
+#bbz2{
+    background-image: url('img/bbz2.jpg');
+}
+#pañ1{
+    background-image: url('img/pañ1.jpg');
+}
+#pañ2{
+    background-image: url('img/pañ2.jpg');
 }
