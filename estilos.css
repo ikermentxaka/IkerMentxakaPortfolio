@@ -64,8 +64,8 @@ a:hover{
     }
     #panel{
         margin-inline: 10vw;
-        margin-top: 10em;
     }
+
     #atras{
         display: none;
     }
@@ -277,4 +277,11 @@ a:hover{
 }
 #pañ2{
     background-image: url('img/pañ2.jpg');
+}
+#txtvideo{
+    font-size: 2em;
+    padding-inline: 12em;
+}
+.player{
+    height: 35em;
 }
